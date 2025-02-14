@@ -1,7 +1,7 @@
 # 1
 #  print("Hanggang sa huli, palagi")
 #  print("Pipiliin kong maging sa 'yo") 
-3
+
 # 2
 #  print("Hanggang sa huli, palagi")
 #  print()

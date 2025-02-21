@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+body{
+
+  background-color: peachpuff;
+}
+.note-form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+/* Container for all note cards */
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling for each note card as a square */
+.note-card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Position the delete button at the bottom center of each card */
+.note-card button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+/* Background colors based on the note category */
+.important-urgent {
+  background-color: red;
+  color: white;
+  
+}
+
+.important-not-urgent {
+  background-color: blue;
+  color: white;
+}
+
+.urgent-not-important {
+  background-color: green;
+  color: white;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.radio span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.important-urgent span {
+  color: red;
+}
+
+.important-not-urgent span {
+  color: blue;
+}
+
+.urgent-not-important span {
+  color: orange;
+}
+.important-urgent .radio-text {
+  color: white;
+}
+
+.important-not-urgent .radio-text {
+  color: white;
+}
+
+.urgent-not-important .radio-text {
+  color: yellow;
+}
+
